@@ -14,7 +14,7 @@ not_in_nav: |
 theme:
   name: material
   icon:
-    logo: fontawesome/solid/brain
+  logo: assets/logo.png
   palette:
     primary: blue grey
     accent: blue
