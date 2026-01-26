@@ -1,3 +1,146 @@
+/* Font and Body Styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+}
+
+/* Content paragraph spacing */
+.md-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Header Styles - Override Material theme */
+.md-header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-bottom: none;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Make header container full width */
+.md-header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100% !important;
+    width: 100%;
+    padding: 1rem 20px !important;
+    background-color: #fff;
+    margin: 0 !important;
+}
+
+/* Logo/icon in header */
+.md-header__logo {
+    display: flex !important;
+    align-items: center !important;
+    margin-right: 1rem !important;
+    height: 50px !important;
+}
+
+.md-logo {
+    display: flex !important;
+    align-items: center !important;
+    height: 50px !important;
+    width: auto !important;
+}
+
+.md-logo img,
+.md-header__logo img,
+.md-header__logo svg {
+    height: 50px !important;
+    width: auto !important;
+    max-height: 50px !important;
+    max-width: none !important;
+}
+
+.md-header__logo a {
+    display: flex !important;
+    align-items: center !important;
+    height: 50px !important;
+}
+
+.md-header__button {
+    color: #2c3e50;
+}
+
+.md-header__title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #2c3e50;
+    flex: 1;
+}
+
+.md-header__title:hover {
+    color: #2c3e50;
+}
+
+.md-nav {
+    font-weight: 500;
+}
+
+.md-nav__list {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.md-nav__item {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.md-nav__link {
+    color: #555;
+    transition: color 0.3s ease;
+    padding: 0.25rem 0 !important;
+    border-bottom: 2px solid transparent;
+    margin: 0 !important;
+}
+
+.md-nav__link:hover,
+.md-nav__link--active {
+    color: #3498db;
+    border-bottom-color: #3498db;
+}
+
+/* Typography */
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #2c3e50;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
+    color: #34495e;
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 1.1rem;
+    margin-bottom: 0.4rem;
+    color: #3f4f5f;
+}
+
+/* Content area background */
+.md-main {
+    background-color: #fff;
+}
+
 #main-title {
     margin-bottom: 0em;
 }

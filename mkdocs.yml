@@ -13,13 +13,12 @@ not_in_nav: |
   conclusion.md
 theme:
   name: material
-  icon:
-  logo: assets/logo.png
+  logo: /assets/logo.png
   palette:
     primary: blue grey
     accent: blue
   font:
-    text: Roboto Flex
+    text: Roboto
   features:
   - navigation.sections
   - navigation.instant
