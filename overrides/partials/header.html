@@ -1,4 +1,3 @@
-
 <!--
   Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
 
@@ -104,6 +103,13 @@
 
   <!-- Navigation tabs (sticky) -->
   {% if "navigation.tabs.sticky" in features %}
+    {% if "navigation.tabs" in features %}
+      {% include "partials/tabs.html" %}
+    {% endif %}
+  {% endif %}
+
+  <!-- Navigation tabs -->
+  {% if not "navigation.tabs.sticky" in features %}
     {% if "navigation.tabs" in features %}
       {% include "partials/tabs.html" %}
     {% endif %}

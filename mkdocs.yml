@@ -21,6 +21,7 @@ theme:
   font:
     text: Roboto
   features:
+  - navigation.tabs
   - navigation.sections
   - navigation.instant
   - navigation.top
