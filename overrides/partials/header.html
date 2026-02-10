@@ -99,19 +99,19 @@
         {% include "partials/source.html" %}
       </div>
     {% endif %}
-
-    {% if "navigation.tabs" in features %}
-      {% include "partials/tabs.html" %}
-    {% endif %}
   </nav>
 
   <!-- Navigation tabs (sticky) -->
   {% if "navigation.tabs.sticky" in features %}
-    
+    {% if "navigation.tabs" in features %}
+      {% include "partials/tabs.html" %}
+    {% endif %}
   {% endif %}
 
   <!-- Navigation tabs -->
   {% if not "navigation.tabs.sticky" in features %}
-    
+    {% if "navigation.tabs" in features %}
+      {% include "partials/tabs.html" %}
+    {% endif %}
   {% endif %}
 </header>
