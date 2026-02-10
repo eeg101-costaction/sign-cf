@@ -206,3 +206,7 @@ p input {
 .md-tabs__list {
     justify-content: flex-end;
 }
+
+.md-tabs__link {
+    font-size: 16pt;
+}
