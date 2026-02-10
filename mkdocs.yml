@@ -1,6 +1,6 @@
 site_name: EEG101 Community Framework
 nav:
-  - Home: index.md
+  - Community Framework: index.md
   - Signatories: signatories.md
   - Contributors: contributors.md
   - Glossary: glossary.md
