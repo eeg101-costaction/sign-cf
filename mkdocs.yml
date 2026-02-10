@@ -16,7 +16,7 @@ theme:
   logo: assets/logo.png
   favicon: assets/logo.png
   palette:
-    primary: blue grey
+    primary: white
     accent: blue
   font:
     text: Roboto

@@ -72,10 +72,6 @@
       </div>
     </div>
 
-    {% if "navigation.tabs" in features %}
-      {% include "partials/tabs.html" %}
-    {% endif %}
-
     <!-- Color palette toggle -->
     {% if config.theme.palette %}
       {% if not config.theme.palette is mapping %}
@@ -104,4 +100,18 @@
       </div>
     {% endif %}
   </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  {% if "navigation.tabs.sticky" in features %}
+    {% if "navigation.tabs" in features %}
+      {% include "partials/tabs.html" %}
+    {% endif %}
+  {% endif %}
+
+  <!-- Navigation tabs -->
+  {% if not "navigation.tabs.sticky" in features %}
+    {% if "navigation.tabs" in features %}
+      {% include "partials/tabs.html" %}
+    {% endif %}
+  {% endif %}
 </header>
