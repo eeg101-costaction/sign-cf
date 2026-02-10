@@ -202,3 +202,7 @@ p input {
     pointer-events: none;
     z-index: 1000;
 }
+
+.md-tabs__list {
+    justify-content: flex-end;
+}
