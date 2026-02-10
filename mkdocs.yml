@@ -22,6 +22,7 @@ theme:
     text: Roboto
   features:
   - navigation.tabs
+  - navigation.tabs.sticky
   - navigation.sections
   - navigation.instant
   - navigation.top
