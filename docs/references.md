@@ -1,7 +1,6 @@
 # References
 
-If you'd like to see the living reference list for the EEG Community Framework please go to the 
-[Zotero library](https://www.zotero.org/groups/5794905/eegcommunityframework/library)
+The online [Community Framework Catalog](https://eeg101-zeta.vercel.app/) offers another view on these references and an expanded list of additional resources.
 
 
 
