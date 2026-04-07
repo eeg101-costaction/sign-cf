@@ -59,6 +59,25 @@
     
     
     
+  <style>
+    .md-header__inner {
+      position: relative;
+    }
+    .eeg101-header-link {
+      position: absolute;
+      right: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      z-index: 10;
+    }
+    .eeg101-header-link img {
+      height: 36px;
+      width: auto;
+    }
+  </style>
+
   </head>
   
   
@@ -86,6 +105,7 @@
     </div>
     
     
+  
       
 <!--
   Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
@@ -180,6 +200,10 @@
   
 </header>
     
+  <a class="eeg101-header-link" href="https://eeg101.eu" target="_blank" rel="noopener">
+    <img src="../assets/logo.png" alt="EEG101">
+  </a>
+
     <div class="md-container" data-md-component="container">
       
       
