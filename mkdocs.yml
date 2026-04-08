@@ -5,6 +5,7 @@ nav:
   - Contributors: contributors.md
   - Glossary: glossary.md
   - References: references.md
+  - "Online resources catalog ↗": https://catalog-cf.eeg101.eu
   - "EEG101 home website ↗": https://eeg101.eu
 not_in_nav: |
   introduction.md
