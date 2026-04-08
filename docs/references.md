@@ -1,6 +1,6 @@
 # References
 
-The online [Community Framework Catalog](https://eeg101-zeta.vercel.app/) offers another view on these references and an expanded list of additional resources.
+The online [Community Framework Catalog](https://catalog-cf.eeg101.eu/) offers another view on these references and an expanded list of additional resources.
 
 
 
