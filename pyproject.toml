@@ -12,4 +12,5 @@ dependencies = [
     "supabase>=2.17.0",
     "google-auth>=2.36.0",
     "google-api-python-client>=2.156.0",
+    "pypandoc>=1.17",
 ]
