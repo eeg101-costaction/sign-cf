@@ -20,3 +20,4 @@ venv/
 *.~lock.*\#
 
 .env
+/debug_combined.md
